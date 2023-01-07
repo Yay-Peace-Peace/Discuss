@@ -118,3 +118,9 @@
   0% { opacity: 1; }
   100% { opacity: 0; }
 }
+
+.invalid-feedback {
+  padding-top: 7px;
+  font-size:70%;
+  text-transform: capitalize;
+}
