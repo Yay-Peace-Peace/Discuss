@@ -14,3 +14,5 @@ psql:
 	#	\d		Show DETAILS of TABLE (\d+ for mode details)
 	#=-------------------------------------------------------------------=#
 	docker exec -it discuss-db-1 psql -U elixir -d discuss
+iex:
+	iex -S mix -werl
